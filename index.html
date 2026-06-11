@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="icon" href="img/icons/cap.png"/>
+  <title>Soy Charly</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <header class="header">
+  <div class="header__container">
+    <!-- Botón hamburguesa (mobile) -->
+    <button class="header__burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+    </button>
+    <!-- Logo -->
+    <a href="/" class="header__logo">
+      <img src="/img/icons/cap.png" alt="Logo"/>
+    </a>
+    <!-- Navegación escritorio -->
+    <nav class="nav" role="navigation" aria-label="Main Navigation">
+      <ul class="nav__list">
+        <li><a href="https://www.youtube.com/channel/UCubxqSQFgJChyG4uJFVqMKQ" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://www.instagram.com/soycharly_devx" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.facebook.com/SoyCharly10" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.instagram.com/soycharly_devx" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/soycharly_devx" target="_blank" rel="noopener">Discord</a></li>
+      </ul>
+    </nav>
+    <!-- Botón "Ver más" -->
+    <a href="https://www.youtube.com/channel/UCubxqSQFgJChyG4uJFVqMKQ/join" target="_blank" class="header__button">Membresías</a>
+  </div>
+  <!-- Sidebar móvil -->
+  <aside id="mobile-menu" class="mobile-menu" aria-hidden="true">
+    <button class="mobile-menu__close" aria-label="Cerrar menú">&times;</button>
+    <nav class="mobile-menu__nav">
+      <ul>
+        <li><a href="https://www.youtube.com/channel/UCubxqSQFgJChyG4uJFVqMKQ" target="_blank" rel="noopener">YOUTUBE</a></li>
+        <li><a href="https://www.facebook.com/SoyCharly10" target="_blank" rel="noopener">FACEBOOK</a></li>
+        <li><a href="https://www.instagram.com/soycharly_devx" target="_blank" rel="noopener">INSTAGRAM</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <div class="overlay"></div>
+</header>
+
+<main class="blog-post">
+  <section class="hero">
+    <div class="hero__banner">
+      <!-- <img src="img/soycharly.png" alt="Banner SoyCharly10"> -->
+    </div>
+
+    <div class="hero__profile">
+      <!-- <img src="img/icons/favicon.png" alt="CharlyA10"> -->
+      <h1>Soყ Charlყ</h1>
+      <p>Sofware Developer / Fútbol / 🧑🏻‍💻❤️⚽️</p>
+      <div class="hero__socials">
+        <a href="https://www.youtube.com/channel/UCubxqSQFgJChyG4uJFVqMKQ" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/SoyCharly10" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/soycharly_devx" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/503XXXXXXXX" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.tiktok.com/@soycharly10" target="_blank"><i class="fab fa-tiktok"></i></a>
+      </div>
+      <!-- <p class="info">Este espacio a sido desarrollado para que siempre puedan encontrár la actualización más reciente de los juegos que estoy trabajando (Siempre vean la fecha de actualización de cada juego)</p> -->
+    </div>
+  </section>
+
+  <section id="descargas" class="contenedor">
+    <h2>Descargas disponibles</h2>
+    <b><p>Selecciona el parche o mod que quieras y sigue las instrucciones para instalarlo fácilmente.</p></b>
+    <div class="tarjetas">
+       <article class="tarjeta">
+         <button class="scroll-hint">Desliza para ver más →</button>
+          <img src="/img/cards/eafc26.webp" alt="EA SPORTS FC26 Versión 2" />
+          <h3>EA SPORTS FC26</h3>
+          <p>Mundial de clubes, fichajes actualizados, nuevos kits, nuevos callnames</p>
+       <a href="fc26.html" class="boton">VER MÁS</a>
+       </article>
+
+       <article class="tarjeta">
+         <img src="/img/cards/pes26.webp" alt="PES" />
+         <h3>PES Centroamérica</h3>
+         <p>Tendremos modo carrera y muncial de clubes cinématica original</p>
+         <a href="pes26.html" class="boton">VER MÁS</a>
+       </article>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <p>@Soy Charly</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
